@@ -19,13 +19,13 @@ To achieve this highly efficient approximation, this architecture moves beyond s
 3. **Dual-Objective Distillation Protocol:** A custom joint objective function combining MSE and Cosine similarities. This aligns the temporal trajectory while maximizing global angular proximity, preventing the dimensional collapse chronically observed in pure latent space regression models.
 4. **Stable Latent Anchoring:** The strategic deployment of a frozen ResNet-18 visual teacher to provide a dense, highly localized 512-D continuous latent space anchor.
 
-5. <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/3ed756f2-a0ba-4c5a-ae07-cd87c72e602f" />
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/3ed756f2-a0ba-4c5a-ae07-cd87c72e602f" />
 
 
 ##  Repository Structure
 The codebase is modularized for scalable engineering and rapid ablation testing.
 
-Also main Training Notebooks are "multi-modal-resnet-5k.ipynb" & "multi-modal-resnet-10k.ipynb"
+**Main Training Notebooks** are **multi-modal-resnet-5k.ipynb** & **multi-modal-resnet-10k.ipynb**
 
 ```text
 AIMS Multi-modal Research Intern/
