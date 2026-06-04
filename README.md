@@ -48,8 +48,7 @@ AIMS Multi-modal Research Intern/
 │   └── test_pipeline.py            
 │
 ├── train.py                        # Execution loop for local training
-├── train.py
-├── train.py
+│
 ├── multi-modal-resnet-5k.ipynb     # Cloud sprint log (5,000 video pairs)
 ├── multi-modal-resnet-10k.ipynb    # Cloud sprint log (10,000 video pairs)
 └── README.md
